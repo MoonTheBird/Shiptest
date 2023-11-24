@@ -247,6 +247,23 @@ GLOBAL_LIST_INIT(sand_recipes, list(\
 	item_state = "slag"
 	singular_name = "slag chunk"
 
+/obj/item/stack/ore/bone
+	name = "bone chunks"
+	icon_state = "bone"
+	item_state = "bone chunk"
+	singular_name = "bone chunk"
+	points = 100
+	custom_materials = list(/datum/material/bone=MINERAL_MATERIAL_AMOUNT)
+	refined_type = /obj/item/stack/sheet/mineral/bone
+	mine_experience = 10
+	scan_state = "rock_Bone"
+	spreadChance = 10
+
+obj/item/stack/ore/bone
+	name = "sturdy bone shards"
+	desc = "A very sturdy shard
+
+
 /obj/item/gibtonite
 	name = "gibtonite ore"
 	desc = "Extremely explosive if struck with mining equipment, Gibtonite is often used by miners to speed up their work by using it as a mining charge. This material is illegal to possess by unauthorized personnel under space law."

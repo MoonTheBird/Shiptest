@@ -383,3 +383,10 @@
 	if(prob(33))
 		icon_state = "cheeseburgeralt"
 
+/obj/item/reagent_containers/food/snacks/burger/mystery
+	name = "mystery burger"
+	desc = "Anodyne is not responsible for any illnesses caused by consumption of this mystery meal."
+	icon_state = "mystery_burger"
+	bonus_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/nutriment/vitamin = 1)
+	tastes = list("bun" = 2, "mystery meat" = 4)
+	foodtype = GRAIN | MEAT | GROSS

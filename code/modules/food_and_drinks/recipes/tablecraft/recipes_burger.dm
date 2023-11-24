@@ -368,3 +368,12 @@
 	)
 	result = /obj/item/reagent_containers/food/snacks/burger/chicken
 	subcategory = CAT_BURGER
+
+/datum/crafting_recipe/food/mysteryburger
+	name = "Mystery Burger"
+	reqs = list(
+			/obj/item/reagent_containers/food/snacks/mystery_meatball = 1,
+			/obj/item/reagent_containers/food/snacks/bun = 1
+	)
+	result = /obj/item/reagent_containers/food/snacks/burger/mystery
+	subcategory = CAT_BURGER

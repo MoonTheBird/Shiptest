@@ -829,3 +829,15 @@
 	baseturfs = /turf/open/floor/plating
 	environment_type = "snow_cavern"
 	turf_type = /turf/open/floor/plating
+
+/turf/closed/mineral/random/fleshplanet
+	name = "flesh wall"
+	desc = "A disgusting wall of living flesh."
+	icon = 'icons/turf/walls/flesh.dmi'
+	smooth_icon = 'icons/turf/walls/flesh.dmi'
+	icon_state = "flesh_wall-0"
+	base_icon_state = "flesh_wall"
+	initial_gas_mix = FLESHPLANET_DEFAULT_ATMOS
+	baseturfs = /turf/open/floor/plating/flesh
+	turf_type = /turf/open/floor/plating/flesh
+	mineralSpawnChanceList = list(/obj/item/stack/ore/bone = 30, /obj/item/stack/ore/strongbone = 1, /obj/item/reagent_containers/food/snacks/meat/flesh = 50)

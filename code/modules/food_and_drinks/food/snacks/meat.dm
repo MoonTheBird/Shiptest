@@ -339,6 +339,43 @@
 	slice_path = /obj/item/reagent_containers/food/snacks/meat/rawcutlet/chicken
 	tastes = list("chicken" = 1)
 
+/obj/item/reagent_containers/food/snacks/meat/flesh
+	name = "slab of flesh"
+	desc = "A massive slab of disgusting flesh, fresh from a pitworld. Smells miserable."
+	icon_state = "raw_slab"
+	list_reagents = list(/datum/reagent/consumable/nutriment = 12, /datum/reagent/consumable/nutriment/vitamin = 6)
+	tastes = list("gamey meat" = 1)
+	foodtype = MEAT | RAW | GROSS
+	cooked_type = /obj/item/reagent_containers/food/snacks/meat/grilled_flesh
+	slice_path = /obj/item/reagent_containers/food/snacks/meat/flesh_slice
+	slices_num = 6
+
+/obj/item/reagent_containers/food/snacks/meat/grilled_flesh
+	name = "slab of grilled flesh"
+	desc = "A massive slab of grilled flesh from a pitworld. No longer smells as miserable."
+	icon_state = "grilled_slab"
+	list_reagents = list(/datum/reagent/consumable/nutriment = 18, /datum/reagent/consumable/nutriment/vitamin = 4)
+	tastes = list("gamey meat" = 1, "char" = 1)
+	foodtype = MEAT | GROSS
+
+/obj/item/reagent_containers/food/snacks/meat/flesh_slice
+	name = "slice of flesh"
+	desc = "A much more manageable slice of flesh, fresh from a pitworld. The smell is much less potent now."
+	icon_state = "raw_slab_slice"
+	list_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/nutriment/vitamin = 1)
+	tastes = list("gamey meat" = 1)
+	foodtype = MEAT | RAW | GROSS
+	cooked_type = /obj/item/reagent_containers/food/snacks/meat/grilled_flesh_slice
+
+/obj/item/reagent_containers/food/snacks/meat/grilled_flesh_slice
+	name = "slice of flesh"
+	desc = "A slice of grilled flesh from a pitworld. It almost smells edible."
+	icon_state = "grilled_slab_slice"
+	list_reagents = list(/datum/reagent/consumable/nutriment = 3) //burned the vitamins away :pensive:
+	tastes = list("gamey meat" = 1, "char" = 1)
+	foodtype = MEAT | GROSS
+	cooked_type = /obj/item/reagent_containers/food/snacks/meat/grilled_flesh_slice
+
 ////////////////////////////////////// MEAT STEAKS ///////////////////////////////////////////////////////////
 
 

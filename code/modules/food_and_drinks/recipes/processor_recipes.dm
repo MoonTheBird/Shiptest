@@ -58,3 +58,7 @@
 	input = /obj/item/grown/log
 	output = /obj/item/popsicle_stick
 	multiplier = 3
+
+/datum/food_processor_process/flesh
+	input = /obj/item/reagent_containers/food/snacks/meat/flesh_slice
+	output = /obj/item/reagent_containers/food/snacks/mystery_meatball

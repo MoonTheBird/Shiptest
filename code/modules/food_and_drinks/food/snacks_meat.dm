@@ -399,6 +399,15 @@
 	. = ..()
 	AddComponent(/datum/component/slippery, 30)
 
+/obj/item/reagent_containers/food/snacks/mystery_meatball
+	name = "mystery meatball"
+	desc = "A strange chunk of flesh. It looks and smells unappetizing, but at least you don't know what's in it."
+	icon_state = "mystery_meatball"
+	list_reagents = list(/datum/reagent/consumable/nutriment = 2, /datum/reagent/consumable/nutriment/vitamin = 1)
+	tastes = list("mystery meat" = 1)
+	foodtype = MEAT | GROSS
+
+
 //////////////////////////////////////////// KEBABS AND OTHER SKEWERS ////////////////////////////////////////////
 
 /obj/item/reagent_containers/food/snacks/kebab
