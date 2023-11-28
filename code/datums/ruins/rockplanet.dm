@@ -51,6 +51,12 @@
 	suffix = "rockplanet_house.dmm"
 */
 
+/datum/map_template/ruin/rockplanet/house_of_leaves
+	name = "Abandoned house"
+	id = "hol"
+	description = "Some kind of house, abandoned on this planet..."
+	suffix = "rockplanet_hol.dmm"
+
 /datum/map_template/ruin/rockplanet/mining_expedition
 	name = "Mining Expedition"
 	id = "expedition"

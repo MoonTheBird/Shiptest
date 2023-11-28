@@ -1,0 +1,80 @@
+"a" = (/turf/open/space/basic,/area/space)
+"b" = (/turf/closed/wall/mineral/wood/nonmetal,/area/ruin/rockplanet)
+"c" = (/turf/open/floor/wood/maple,/area/ruin/rockplanet)
+"d" = (/obj/structure/chair/wood,/turf/open/floor/wood/maple,/area/ruin/rockplanet)
+"e" = (/turf/open/floor/carpet,/area/ruin/rockplanet)
+"f" = (/obj/structure/chair/wood{dir = 4},/turf/open/floor/wood/maple,/area/ruin/rockplanet)
+"g" = (/obj/structure/table/wood,/turf/open/floor/wood/maple,/area/ruin/rockplanet)
+"h" = (/obj/structure/chair/wood{buildstackamount = 3; dir = 8},/turf/open/floor/wood/maple,/area/ruin/rockplanet)
+"i" = (/obj/structure/mineral_door/wood,/turf/open/floor/wood/maple,/area/ruin/rockplanet)
+"j" = (/obj/structure/chair/wood{dir = 1},/turf/open/floor/wood/maple,/area/ruin/rockplanet)
+"k" = (/obj/effect/step_trigger/teleporter{teleport_x = 9; teleport_y = 1; teleport_z = 2},/turf/open/floor/wood/maple,/area/ruin/rockplanet)
+"l" = (/obj/item/flashlight/lamp/green,/turf/open/floor/wood/maple,/area/ruin/rockplanet)
+"m" = (/obj/structure/showcase/machinery/tv{desc = "An ancient television from a long gone era. How long has this been here?"; name = "ancient television"},/turf/open/floor/wood/maple,/area/ruin/rockplanet)
+"n" = (/obj/structure/dresser,/turf/open/floor/carpet,/area/ruin/rockplanet)
+"o" = (/obj/structure/filingcabinet/double,/turf/open/floor/wood/maple,/area/ruin/rockplanet)
+"p" = (/turf/open/floor/carpet/cyan,/area/ruin/rockplanet)
+"q" = (/obj/structure/chair/sofa/left{dir = 4},/turf/open/floor/carpet/cyan,/area/ruin/rockplanet)
+"r" = (/obj/structure/chair/sofa/right{dir = 8},/turf/open/floor/carpet/cyan,/area/ruin/rockplanet)
+"s" = (/obj/structure/chair/sofa/corner{dir = 1},/turf/open/floor/carpet/cyan,/area/ruin/rockplanet)
+"t" = (/obj/structure/chair/sofa{dir = 1},/turf/open/floor/carpet/cyan,/area/ruin/rockplanet)
+"u" = (/obj/structure/chair/sofa/corner{dir = 8},/turf/open/floor/carpet/cyan,/area/ruin/rockplanet)
+"v" = (/obj/structure/mineral_door/wood,/turf/open/floor/carpet,/area/ruin/rockplanet)
+"w" = (/obj/structure/mineral_door/wood,/turf/closed/wall/mineral/wood/nonmetal,/area/ruin/rockplanet)
+"x" = (/obj/structure/closet/cabinet,/turf/open/floor/wood/maple,/area/ruin/rockplanet)
+"y" = (/turf/open/floor/grass/ship,/area/space)
+"z" = (/turf/open/floor/grass/ship/jungle,/area/space)
+"A" = (/obj/structure/bed/double{dir = 2},/obj/structure/curtain/cloth/fancy,/turf/open/floor/carpet,/area/ruin/rockplanet)
+"B" = (/obj/structure/table/glass,/turf/open/floor/carpet/cyan,/area/ruin/rockplanet)
+"C" = (/obj/structure/closet/secure_closet/freezer/meat,/turf/open/floor/plastic,/area/ruin/rockplanet)
+"D" = (/turf/open/floor/plastic,/area/ruin/rockplanet)
+"E" = (/obj/structure/table/chem{desc = "A counter for a kitchen."; name = "kitchen counter"},/obj/machinery/microwave,/turf/open/floor/plastic,/area/ruin/rockplanet)
+"F" = (/obj/structure/table/chem{desc = "A counter for a kitchen."; name = "kitchen counter"},/obj/structure/sink/chem{desc = "A sink integrated into the counter."; dir = 1; name = "kitchen sink"},/turf/open/floor/plastic,/area/ruin/rockplanet)
+"G" = (/obj/structure/table/chem{desc = "A counter for a kitchen."; name = "kitchen counter"},/turf/open/floor/plastic,/area/ruin/rockplanet)
+"H" = (/obj/structure/closet/secure_closet/freezer/kitchen,/turf/open/floor/plastic,/area/ruin/rockplanet)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaabbbbbbbbbbbbbbbbbbaaaaaa
+aaaaaabcddcbcccccbeeeeebaaaaaa
+aaaaaabfgghbceeecbeeeeebaaaaaa
+aaaaaabfgghcceeecbeeeeebaaaaaa
+aaaaaabfgghcceeecbeeeeebaaaaaa
+aaaaaabfgghbceeecieeeeebaaaaaa
+aaaaaabcjjcbcccccbeeeeebaaaaaa
+aaaaaabbbbbbbbkbbbbbbbbbaaaaaa
+aaaaaaayzyzyzyzyzyzyzyzaaaaaaa
+aaaaaaayzyzyzyzyzyzyzyzaaaaaaa
+aaaaaaayzyzyzyzyzyzyzyzaaaaaaa
+aaaaaaayzyzyzyzyzyzyzyzaaaaaaa
+aaaaaaayzyzyzyzyzyzyzyzaaaaaaa
+"}
+
+(1,1,2) = {"
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+bccccbclmlcbcccccbenAeebooooob
+bcpppppBBBppppppcbeeeeebcccccb
+bcppppqBBBrpppppcbeeeeebcoooob
+bcppppstttupppppcieeeeeicccccb
+bcppppppppppppppcbeeeeebccoccb
+bccccbcccccbcccccbeeeeebcooocb
+bbbibbbbbbbbbbbbbbbbvbbbccoccb
+bCDDDDbcddcbcccccbeeeeebcooocb
+bEDDDDbfgghbceeecbeeeeebcooccb
+bFDDDDwfgghcceeecbeeeeebccooob
+bGDDDDwfgghcceeecbeeeeebocccob
+bHDDDDbfgghbceeecieeeeeboocoob
+bbbibbbcjjcbcccccbeeeeebcocccb
+bcccccbbbbbbbbkbbbbbbbbbcooocb
+bcccccbyzyzyzyzyzyzyzyzbccoccb
+bcccccbyzyzyzyzyzyzyzyzbocccob
+bcccccbyzyzyzyzyzyzyzyzboocoob
+bcccccbyzyzyzyzyzyzyzyzbccccxb
+bbbbbbbyzyzyzyzyzyzyzyzbbbbbbb
+"}
