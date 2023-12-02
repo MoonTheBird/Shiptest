@@ -838,6 +838,19 @@
 	icon_state = "flesh_wall-0"
 	base_icon_state = "flesh_wall"
 	initial_gas_mix = FLESHPLANET_DEFAULT_ATMOS
-	baseturfs = /turf/open/floor/plating/flesh
-	turf_type = /turf/open/floor/plating/flesh
+	baseturfs = /turf/open/floor/plating/asteroid/fleshplanet
+	turf_type = /turf/open/floor/plating/asteroid/fleshplanet
 	mineralSpawnChanceList = list(/obj/item/stack/ore/bone = 30, /obj/item/stack/ore/strongbone = 1, /obj/item/reagent_containers/food/snacks/meat/flesh = 50)
+
+
+/turf/closed/mineral/random/fleshplanet/bone
+	name = "bone wall"
+	desc = "A grotesquely smooth wall of bone."
+	icon = 'icons/turf/walls/bonewall.dmi'
+	smooth_icon = 'icons/turf/walls/bonewall.dmi'
+	icon_state = "bonewallwall-0"
+	base_icon_state = "bonewall"
+	initial_gas_mix = FLESHPLANET_DEFAULT_ATMOS
+	baseturfs = /turf/open/floor/plating/asteroid/fleshplanet/bone
+	turf_type = /turf/open/floor/plating/asteroid/fleshplanet/bone
+	mineralSpawnChanceList = list(/obj/item/stack/ore/bone = 50, /obj/item/stack/ore/strongbone = 20)

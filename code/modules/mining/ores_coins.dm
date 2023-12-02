@@ -259,10 +259,9 @@ GLOBAL_LIST_INIT(sand_recipes, list(\
 	scan_state = "rock_Bone"
 	spreadChance = 10
 
-obj/item/stack/ore/bone
+obj/item/stack/ore/bone/sturdy
 	name = "sturdy bone shards"
-	desc = "A very sturdy shard
-
+	desc = "A very sturdy shard of bone."
 
 /obj/item/gibtonite
 	name = "gibtonite ore"

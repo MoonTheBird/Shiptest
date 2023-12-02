@@ -954,3 +954,12 @@
 		M.drowsyness++
 	return ..()
 
+//probably disincentivise drinking this
+/datum/reagent/amniotic_ballast
+	name = "Amniotic Ballast"
+	description = "A disgusting, viscous fluid that some claim to be a potent aphrodisiac."
+	color = "#B29398"
+	taste_description = "watery syrup"
+	glass_icon_state = "ballast"
+	glass_name = "glass of amniotic ballast"
+	glass_desc = "It looks nasty and smells like a newborn child. What could go wrong?"

@@ -160,3 +160,15 @@
 	icon_state = "globe"
 	preserve_level = TRUE
 	landing_sound = 'sound/effects/planet_landing_1.ogg'
+
+/datum/planet_type/flesh
+	name = "pitworld"
+	desc = "A writhing mass of cosmic flesh. Nobody knows how these things came to be..."
+	planet = DYNAMIC_WORLD_FLESHPLANET
+	color = "#8e2928"
+	icon_state = "globe_flesh"
+	mapgen = /datum/map_generator/planet_generator/flesh
+	default_baseturf = /turf/open/floor/plating/asteroid/fleshplanet
+	weather_controller_type = /datum/weather_controller/quake
+	ruin_type = RUINTYPE_FLESH
+	landing_sound = 'sound/effects/planet_landing_2.ogg'

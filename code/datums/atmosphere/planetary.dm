@@ -117,3 +117,27 @@
 
 	minimum_temp = T20C + 1
 	maximum_temp = T20C + 80
+
+/datum/atmosphere/fleshplanet
+	id = FLESHPLANET_DEFAULT_ATMOS
+
+	base_gases = list(
+		GAS_O2=5,
+		GAS_N2=10,
+	)
+	normal_gases = list(
+		GAS_O2=5,
+		GAS_N2=10,
+		GAS_CO2=15,
+	)
+	restricted_gases = list(
+		GAS_PLASMA=0.1,
+		GAS_H2O=0.1,
+	)
+	restricted_chance = 50
+
+	minimum_pressure = ONE_ATMOSPHERE + 50
+	maximum_pressure = WARNING_HIGH_PRESSURE + 10
+
+	minimum_temp = T20C+5
+	maximum_temp = T20C+20
