@@ -250,18 +250,25 @@ GLOBAL_LIST_INIT(sand_recipes, list(\
 /obj/item/stack/ore/bone
 	name = "bone chunks"
 	icon_state = "bone"
-	item_state = "bone chunk"
+	item_state = "bone"
 	singular_name = "bone chunk"
 	points = 100
-	custom_materials = list(/datum/material/bone=MINERAL_MATERIAL_AMOUNT)
 	refined_type = /obj/item/stack/sheet/mineral/bone
 	mine_experience = 10
 	scan_state = "rock_Bone"
 	spreadChance = 10
 
-obj/item/stack/ore/bone/sturdy
+obj/item/stack/ore/strongbone
 	name = "sturdy bone shards"
 	desc = "A very sturdy shard of bone."
+	icon_state = "strongbone"
+	item_state = "strongbone"
+	singular_name = "sturdy bone shard"
+	points = 200
+	refined_type = /obj/item/stack/sheet/mineral/strongbone
+	mine_experience = 20
+	scan_state = "rock_StrongBone"
+	spreadChance = 1
 
 /obj/item/gibtonite
 	name = "gibtonite ore"

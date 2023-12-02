@@ -156,9 +156,9 @@
 
 /datum/biome/cave/flesh
 	open_turf_types = list(
-		/turf/open/floor/plating/asteroid/fleshplanet/lit = 90,
-		/turf/open/floor/plating/asteroid/fleshplanet/dry/lit = 9,
-		/turf/open/floor/plating/asteroid/fleshplanet/bone/lit = 1
+		/turf/open/floor/plating/asteroid/fleshplanet = 90,
+		/turf/open/floor/plating/asteroid/fleshplanet/dry/ = 9,
+		/turf/open/floor/plating/asteroid/fleshplanet/bone = 1
 	)
 	closed_turf_types = list(
 		/turf/closed/mineral/random/fleshplanet = 99,
@@ -167,8 +167,8 @@
 
 /datum/biome/cave/flesh/bone
 	open_turf_types = list(
-		/turf/open/floor/plating/asteroid/fleshplanet/bone/lit = 90,
-		/turf/open/floor/plating/asteroid/fleshplanet/dry/lit = 9,
+		/turf/open/floor/plating/asteroid/fleshplanet/bone = 90,
+		/turf/open/floor/plating/asteroid/fleshplanet/dry = 9,
 		/turf/closed/mineral/random/fleshplanet/bone = 1
 	)
 	closed_turf_types = list(
@@ -176,13 +176,31 @@
 		/turf/closed/mineral/random/fleshplanet/bone = 99
 	)
 
-/datum/biome/cave/flesh
+/datum/biome/cave/flesh/cold
 	open_turf_types = list(
-		/turf/open/floor/plating/asteroid/fleshplanet/lit = 90,
-		/turf/open/floor/plating/asteroid/fleshplanet/dry/lit = 9,
-		/turf/open/floor/plating/asteroid/fleshplanet/bone/lit = 1
+		/turf/open/floor/plating/asteroid/fleshplanet = 10,
+		/turf/open/floor/plating/asteroid/fleshplanet/dry = 70,
+		/turf/open/floor/plating/asteroid/fleshplanet/bone = 20
 	)
 	closed_turf_types = list(
-		/turf/closed/mineral/random/fleshplanet = 99,
-		/turf/closed/mineral/random/fleshplanet/bone = 1
+		/turf/closed/mineral/random/fleshplanet = 80,
+		/turf/closed/mineral/random/fleshplanet/bone = 20
+	)
+
+/datum/biome/cave/flesh/ballast
+	open_turf_types = list(
+		/turf/open/floor/plating/asteroid/fleshplanet = 15,
+		/turf/open/ballast = 85
+	)
+	closed_turf_types = list(
+		/turf/closed/mineral/random/fleshplanet = 100
+	)
+
+/datum/biome/cave/flesh/tendril
+	open_turf_types = list(
+		/turf/open/floor/plating/asteroid/fleshplanet = 95,
+		/turf/open/floor/plating/asteroid/fleshplanet/dry = 5
+	)
+	closed_turf_types = list(
+		/turf/closed/mineral/random/fleshplanet = 100
 	)

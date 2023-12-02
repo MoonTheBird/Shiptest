@@ -122,6 +122,11 @@
 	'sound/ambience/shore.ogg', 'sound/ambience/seag1.ogg','sound/ambience/seag2.ogg','sound/ambience/seag2.ogg', \
 	'sound/ambience/ambiodd.ogg','sound/ambience/ambinice.ogg')
 
+#define FLESH list( \
+	'sound/effects/heart_beat.ogg', 'sound/ambience/ambidanger.ogg', 'sound/ambience/ambidanger2.ogg', 'sound/ambience/ambiatmos2.ogg', \
+	'sound/ambience/ambiatm1.ogg', 'sound/ambience/ambimo1.ogg', 'sound/ambience/ambimo2.ogg', 'sound/ambience/ambisin4.ogg',\
+	'sound/ambience/ambisin1.ogg', 'sound/ambience/ambisin2.ogg', 'sound/ambience/ambisin3.ogg')
+
 
 #define INTERACTION_SOUND_RANGE_MODIFIER -3
 #define EQUIP_SOUND_VOLUME 30

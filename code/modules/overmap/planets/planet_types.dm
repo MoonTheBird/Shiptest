@@ -169,6 +169,6 @@
 	icon_state = "globe_flesh"
 	mapgen = /datum/map_generator/planet_generator/flesh
 	default_baseturf = /turf/open/floor/plating/asteroid/fleshplanet
-	weather_controller_type = /datum/weather_controller/quake
+	weather_controller_type = /datum/weather_controller/flesh
 	ruin_type = RUINTYPE_FLESH
 	landing_sound = 'sound/effects/planet_landing_2.ogg'

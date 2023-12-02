@@ -74,3 +74,16 @@
 
 /datum/looping_sound/weather/rain/indoors
 	volume = 30
+
+/datum/looping_sound/weather/quake
+	mid_sounds = list(
+		'sound/ambience/ambiquake.ogg' = 1
+		)
+	mid_length = 5.555 SECONDS
+	start_sound = 'sound/ambience/ambiquakestart.ogg'
+	start_length = 3.138 SECONDS
+	end_sound = 'sound/ambience/ambiquakeend.ogg'
+	volume = 50
+
+/datum/looping_sound/weather/quake/indoors
+	volume = 30

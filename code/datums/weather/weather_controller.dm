@@ -113,3 +113,9 @@
 		/datum/weather/sandstorm/rockplanet = 20,
 		/datum/weather/snowfall = 5,
 	)
+
+/datum/weather_controller/flesh
+	possible_weathers = list(
+		/datum/weather/rain = 10,
+		/datum/weather/quake = 40
+	)

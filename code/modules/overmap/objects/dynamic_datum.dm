@@ -322,3 +322,11 @@
 	sound_environment = SOUND_ENVIRONMENT_MOUNTAINS
 	ambientsounds = REEBE
 	has_gravity = GAS_GIANT_GRAVITY
+
+/area/overmap_encounter/planetoid/fleshplanet
+	name = "\improper Pitworld"
+	sound_environment = SOUND_ENVIRONMENT_AUDITORIUM
+	ambientsounds = FLESH
+
+/area/overmap_encounter/planetoid/fleshplanet/explored
+	area_flags = VALID_TERRITORY

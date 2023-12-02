@@ -28,6 +28,7 @@
 #define DYNAMIC_WORLD_ROCKPLANET "rockplanet" //wacky planets
 #define DYNAMIC_WORLD_BEACHPLANET "beachplanet"
 #define DYNAMIC_WORLD_WASTEPLANET "wasteplanet"
+#define DYNAMIC_WORLD_FLESHPLANET "pitworld"
 
 #define DYNAMIC_WORLD_REEBE "reebe" //celestial bodies
 #define DYNAMIC_WORLD_ASTEROID "asteroid"
@@ -48,7 +49,8 @@
 	DYNAMIC_WORLD_ASTEROID,\
 	DYNAMIC_WORLD_SPACERUIN,\
 	DYNAMIC_WORLD_GAS_GIANT,\
-	DYNAMIC_WORLD_PLASMA_GIANT)
+	DYNAMIC_WORLD_PLASMA_GIANT,\
+	DYNAMIC_WORLD_FLESHPLANET)
 
 //Possible ship states
 #define OVERMAP_SHIP_IDLE "idle"

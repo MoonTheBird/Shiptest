@@ -17,6 +17,8 @@ Mineral Sheets
 		- Mythril
 		- Alien Alloy
 		- Coal
+		- Bone
+		- Sturdy Bone
 */
 
 /*
@@ -576,3 +578,23 @@ GLOBAL_LIST_INIT(abductor_recipes, list ( \
 
 /obj/item/stack/sheet/mineral/coal/ten
 	amount = 10
+
+/obj/item/stack/sheet/mineral/bone
+	name = "bone sheet"
+	desc = "A thick sheet of refined bone. Not as sturdy as goliath bone."
+	icon_state = "bone"
+	item_state = "bone"
+	merge_type = /obj/item/stack/sheet/mineral/bone
+	grind_results = list(/datum/reagent/calcium = 30) //cruncy :)
+	novariants = TRUE
+
+//add bone recipes later
+
+/obj/item/stack/sheet/mineral/strongbone
+	name = "sturdy bone sheet"
+	desc = "A thick sheet of refined bone. Smooth to the touch, and very strong!"
+	icon_state = "strong_bone"
+	item_state = "strong_bone"
+	merge_type = /obj/item/stack/sheet/mineral/strongbone
+	grind_results = list(/datum/reagent/calcium = 60, /datum/reagent/toxin/plasma = 10) //double the crunch, with a bit of extra flavor!
+	novariants = TRUE
