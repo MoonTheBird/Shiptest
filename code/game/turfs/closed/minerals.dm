@@ -848,7 +848,7 @@
 	desc = "A grotesquely smooth wall of bone."
 	icon = 'icons/turf/walls/bonewall.dmi'
 	smooth_icon = 'icons/turf/walls/bonewall.dmi'
-	icon_state = "bonewallwall-0"
+	icon_state = "bonewall-0"
 	base_icon_state = "bonewall"
 	initial_gas_mix = FLESHPLANET_DEFAULT_ATMOS
 	baseturfs = /turf/open/floor/plating/asteroid/fleshplanet/bone

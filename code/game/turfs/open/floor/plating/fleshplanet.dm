@@ -3,7 +3,7 @@
 	name = "flesh"
 	desc = "The ground here is made of pulsating flesh..."
 	icon_state = "flesh"
-	base_icon_state = "dry_flesh"
+	base_icon_state = "flesh"
 	planetary_atmos = TRUE
 	attachment_holes = FALSE
 	initial_gas_mix = FLESHPLANET_DEFAULT_ATMOS
@@ -38,6 +38,10 @@
 	name = "bone floor"
 	icon_state = "flesh_bone"
 	base_icon_state = "flesh_bone"
+	footstep = FOOTSTEP_PLATING
+	barefootstep = FOOTSTEP_PLATING
+	clawfootstep = FOOTSTEP_PLATING
+	heavyfootstep = FOOTSTEP_PLATING
 	baseturfs = /turf/open/floor/plating/asteroid/fleshplanet
 	turf_type = /turf/open/floor/plating/asteroid/fleshplanet
 
