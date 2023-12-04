@@ -1056,3 +1056,13 @@
 					T.air.adjust_moles(GAS_CO2, -amt)
 					T.atmos_spawn_air("o2=[amt];TEMP=293.15")
 		lastcycle = world.time
+
+/obj/structure/flora/tree/bronchiole
+	name = "bronchiole"
+	desc = "A grotesque fleshy protrusion from the flesh of this world. It seems to be pulsating softly, as though it's breathing..."
+	icon = 'icons/obj/flora/lavatrees.dmi' //temporary until I make a proper sprite, looks good enough for now
+	pixel_x = -16
+
+/obj/structure/flora/tree/broncihole/Initialize()
+	icon_state = "tree_[rand(1, 6)]"
+	. = ..()
